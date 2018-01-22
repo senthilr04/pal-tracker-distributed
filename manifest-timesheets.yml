@@ -4,7 +4,6 @@ applications:
   host: timesheets-pal-skr
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-skr.apps.cumuluslabs.io
   services:
   - tracker-timesheets-database
+  - tracker-service-registry
