@@ -11,9 +11,9 @@ import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import java.util.TimeZone;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-@SpringBootApplication
-@EnableEurekaClient
 @EnableCircuitBreaker
+@EnableEurekaClient
+@SpringBootApplication
 @ComponentScan({"io.pivotal.pal.tracker.timesheets", "io.pivotal.pal.tracker.restsupport"})
 public class App {
 
