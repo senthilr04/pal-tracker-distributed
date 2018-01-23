@@ -2,7 +2,7 @@
 POST {{registrationUrl}}/registration
 Content-Type: application/json
 
-{"name": "Sally"}
+{"name": "Sam"}
 
 ### Get user
 GET {{registrationUrl}}/users/USER-ID
