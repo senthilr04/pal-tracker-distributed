@@ -41,3 +41,7 @@ bootRun.environment([
         "SECURITY_USER_NAME": "actuator",
         "SECURITY_USER_PASSWORD": "operations4red"
 ])
+
+test.environment([
+        "REGISTRATION_SERVER_ENDPOINT": "http://registration-server",
+])
