@@ -14,8 +14,6 @@ import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import java.util.TimeZone;
 
 
-@EnableResourceServer
-@EnableWebSecurity
 @EnableCircuitBreaker
 @EnableEurekaClient
 @SpringBootApplication
